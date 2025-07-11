@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 
-const API_BASE_URL = 'https://hj-3-1lpk.onrender.com/';
+const API_BASE_URL = 'https://hj-3-1lpk.onrender.com/api';
 
 function SignupLogin({ onNavigate }) {
     const [isLoginView, setIsLoginView] = useState(false);
