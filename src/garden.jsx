@@ -4,7 +4,7 @@ import { Sprout, Plus, GitBranch, Grid3x3, XCircle, Sun } from 'lucide-react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 // Base URL for your backend API - IMPORTANT: Ensure this is correct!
-const API_BASE_URL = 'http://localhost:5000/api';
+const API_BASE_URL = 'https://growlify-baclend.onrender.com';
 
 // Function to get the JWT token from localStorage
 const getAuthToken = () => {
