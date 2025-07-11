@@ -17,8 +17,7 @@ function Contact() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     setStatus('Sending...');
-
-   const API_BASE_URL = "https://hj-3-1lpk.onrender.com"; // No trailing slash
+const API_BASE_URL = "https://hj-3-1lpk.onrender.com"; // No trailing slash
 
 try {
   const response = await fetch(`${API_BASE_URL}/contact`, {
