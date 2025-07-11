@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 
-const API_BASE_URL = 'https://hj-3-1lpk.onrender.com/'; // This base URL is no longer directly used for weather
+const API_BASE_URL = 'https://hj-3-1lpk.onrender.com/api'; // This base URL is no longer directly used for weather
 const getAuthToken = () => localStorage.getItem('token');
 const API_KEY = 'ef652dd7f8c85f6eba1ecb4dc26a9fe4'; // Your OpenWeatherMap API Key
 
