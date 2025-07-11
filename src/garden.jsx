@@ -4,7 +4,7 @@ import { Sprout, Plus, GitBranch, Grid3x3, XCircle, Sun } from 'lucide-react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 // Base URL for your backend API - IMPORTANT: Ensure this is correct!
-const API_BASE_URL = 'https://hj-3-1lpk.onrender.com/';
+const API_BASE_URL = 'https://hj-3-1lpk.onrender.com/api';
 
 // Function to get the JWT token from localStorage
 const getAuthToken = () => {
